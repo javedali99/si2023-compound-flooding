@@ -8,4 +8,4 @@
 
 **Team Members:** Javed Ali, Sadaf Mahmoudi, Farnaz Yarveysi, Samuel Daramola 
 
-**Advisor:** Kyle Mandli (Columbia University)
+**Advisor:** Dr. Kyle Mandli (Columbia University)
