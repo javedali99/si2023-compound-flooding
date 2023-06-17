@@ -8,4 +8,4 @@
 
 **Team Members:** Javed Ali, Sadaf Mahmoudi, Farnaz Yarveysi, Samuel Daramola 
 
-**Theme Lead:** Kyle Mandli (Associate Professor, Columbia University)
+**Advisor:** Kyle Mandli (Associate Professor, Columbia University)
