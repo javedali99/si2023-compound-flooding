@@ -6,6 +6,6 @@
 
 <br>
 
-**Team Members:** Farnaz Yarveysi, Sadaf Mahmoudi, Javed Ali, Samuel Daramola 
+**Team Members:** Farnaz Yarveysi, Javed Ali, Sadaf Mahmoudi, Samuel Daramola 
 
 **Advisor:** Kyle Mandli (Associate Professor, Columbia University)
