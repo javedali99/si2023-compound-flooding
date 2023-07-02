@@ -5,8 +5,6 @@
 </p>
 
 <br>
-<p align="center">
-    <img src="https://github.com/javedali99/si2023-compound-flooding/assets/15319503/af3d7baa-ab81-4ec7-84cb-24e760c8cd46" alt="team" width="750">
-</p>
+
 
 
