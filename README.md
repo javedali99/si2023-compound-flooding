@@ -125,7 +125,7 @@ Steps:
 3. Model Execution: Run the GeoClaw model.
 4. Output Analysis: Analyze storm surge levels and other hydrodynamic outputs.
 
-### Machine Learning Approaches 🤖
+## Machine Learning Approaches 🤖
 
 Various machine learning models are employed to analyze the data obtained from the coupled modeling to understand and quantify the contributions of various flood drivers to compound flooding under various storm and flooding scenarios in NYC. These algorithms are selected for their ability to handle high-dimensionality, capture non-linear relationships, and model temporal sequences.
 
