@@ -10,7 +10,7 @@
 
 This repository, [si2023-compound-flooding](https://github.com/javedali99/si2023-compound-flooding), is dedicated to an in-depth analysis of the contributions of various flood drivers to compound flooding in New York City (NYC). Compound flooding is a complex phenomenon involving the interplay of various factors such as storm surges, heavy rainfall, and river discharge. These factors interact in complex ways, making it difficult to isolate their individual contributions to overall flooding. Understanding and quantifying the contributions of these factors is essential for effective flood risk management, infrastructure planning, and climate change adaptation strategies.
 
-### Background
+### Background 🌍
 
 New York City is one of the most flood-prone areas in the United States, with a coastline that stretches for over 500 miles. As a hub of economic activity and population density, it is imperative to protect the city against the adverse impacts of flooding. The city has experienced several major flooding events in the past, including Hurricane Sandy in 2012, which caused over $19 billion in damages and claimed 43 lives. The city is also vulnerable to future flooding events, with sea levels projected to rise by 11 to 30 inches by the 2050s and 18 to 60 inches by the 2080s. The city is also expected to experience more frequent and intense precipitation events in the future, which will further exacerbate the risk of flooding. In this context, understanding the drivers of compound flooding and their interactions becomes even more important. This project aims to address this need by analyzing the contributions of various flood drivers to compound flooding in NYC.
 
@@ -18,11 +18,19 @@ New York City is one of the most flood-prone areas in the United States, with a 
 
 The primary objective of this study is to understand and quantify the contributions of various flood drivers to compound flooding in different parts of NYC under various storm and flooding scenarios. The project uses a combination of coupled modeling and machine learning approaches to quantify the contributions of various flood drivers to compound flooding in NYC. This knowledge will help in prioritizing simulation scenarios, optimizing the allocation of modeling resources, and devising more effective flood risk mitigation strategies.
 
-## Data and Methodology :hammer_and_wrench:
+## Data and Methodology :bar_chart: :hammer_and_wrench:
 
 The methodology adopted in this research involves the coupling of hydrologic and hydrodynamic models, followed by the application of various machine learning techniques to analyze and understand the key drivers contributing to compound flooding.
 
-### Storms in NYC
+### Data Sources 📊
+
+---
+
+This study uses a variety of datasets to perform the analysis. The datasets used in this study are listed below:
+
+#### Storms Data ⛈️
+
+The analysis of storm drivers requires comprehensive historical data of storm events that have impacted NYC. This data includes information about storms, such as names, dates of landfall, dates of impact on NYC, and storm attributes. This information is critical for understanding the role of storm surges and extreme precipitation events in compound flooding.
 
 | Name                    | Date of Landfall | Date of Impact on NYC | CFE Time Bounds  | Year |
 | ----------------------- | ---------------- | --------------------- | ---------------- | ---- |
@@ -46,15 +54,23 @@ The methodology adopted in this research involves the coupling of hydrologic and
 | Hurricane Dorian        | 5-Sep-2019       | 6-Sep to 7-Sep-2019   | 3-Sep to 9-Sep   | 2019 |
 | Tropical Storm Ogla     | 26-Oct-2019      | 27-Oct-2019           | 24-Oct to 29-Oct | 2019 |
 
-## Coupled Modeling
+## Coupled Modeling ⚙️
 
 To analyze the drivers of compound flooding, we employ a coupled modeling approach that integrates hydrologic and hydrodynamic models. This allows for the simultaneous representation of different processes that contribute to flooding.
 
-### Hydrologic Modeling using NextGen CFE Model
+### Hydrologic Modeling using NextGen CFE Model 💧
 
 ---
 
 The National Water Center CFE (Conceptual Framework for Entity) model is a type of rainfall-runoff model. It's a conceptual model, meaning it's designed to represent complex hydrological processes using simplified, easy-to-understand concepts. The model is designed to simulate how rainfall gets converted into runoff, a key process in understanding how much water will flow into rivers and streams after a rain event. It's designed with an implementation of the Basic Model Interface, a standard set of functions and procedures designed to facilitate model coupling in integrated environmental modeling studies.
+
+Steps:
+
+1. Hydrofabrics: Generate hydroFabrics subsets for your area of interest.
+2. CFE Forcing: Prepare basin averaged forcing for nextgen cfe model
+3. Configuration: Define model parameters.
+4. Model Execution: Run the CFE model.
+5. Output Analysis: Analyze runoff and other hydrologic outputs for flood events.
 
 #### Generate HydroFabrics Subsets for the 8 watersheds in New York City (NYC) area
 
@@ -90,13 +106,20 @@ ngen ./data/catchment_data.geojson "" ./data/nexus_data.geojson "" ./data/refact
 ngen ./data/catchment_data.geojson "all" ./data/nexus_data.geojson "all" ./data/refactored_example_realization_config.json
 ```
 
-### Hydrodynamic Modeling using GeoClaw Model
+### Hydrodynamic Modeling using GeoClaw Model 🌊
 
 ---
 
 The [GeoClaw model](https://www.clawpack.org/geoclaw.html) specializes in modeling geophysical flows like storm surges and tsunamis. It’s particularly effective at capturing the dynamics of storm surges, which is critical for understanding compound flooding in coastal areas. GeoClaw is one of the models available in [Geopack](https://github.com/clawpack/clawpack). GeoClaw is a coastal model that uses variable resolution to optimise model run times.
 
-## Machine Learning Approaches
+Steps:
+
+1. Configuration: Set up model parameters such as bathymetry, topography, and friction.
+2. Storm Data: Input storm track data and meteorological forcing.
+3. Model Execution: Run the GeoClaw model.
+4. Output Analysis: Analyze storm surge levels and other hydrodynamic outputs.
+
+## Machine Learning Approaches 🤖
 
 Various machine learning models are employed to analyze the data obtained from the coupled modeling and to understand the complex relationships between the flood drivers and the resulting flooding events. These methods include:
 
