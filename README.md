@@ -62,7 +62,7 @@ To analyze the drivers of compound flooding, we employ a coupled modeling approa
 
 ---
 
-The National Water Center CFE (Conceptual Framework for Entity) model is a type of rainfall-runoff model. It's a conceptual model, meaning it's designed to represent complex hydrological processes using simplified, easy-to-understand concepts. The model is designed to simulate how rainfall gets converted into runoff, a key process in understanding how much water will flow into rivers and streams after a rain event. It's designed with an implementation of the Basic Model Interface, a standard set of functions and procedures designed to facilitate model coupling in integrated environmental modeling studies.
+The [National Water Center's Conceptual Functional Equivalent (CFE) model](https://github.com/NOAA-OWP/cfe) is a type of rainfall-runoff model. It's a conceptual model, meaning it's designed to represent complex hydrological processes using simplified, easy-to-understand concepts. The model is designed to simulate how rainfall gets converted into runoff, a key process in understanding how much water will flow into rivers and streams after a rain event. It's designed with an implementation of the Basic Model Interface, a standard set of functions and procedures designed to facilitate model coupling in integrated environmental modeling studies.
 
 Steps:
 
