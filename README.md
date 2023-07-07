@@ -52,6 +52,8 @@ To analyze the drivers of compound flooding, we employ a coupled modeling approa
 
 ### Hydrologic Modeling using NextGen CFE Model
 
+---
+
 The National Water Center CFE (Conceptual Framework for Entity) model is a type of rainfall-runoff model. It's a conceptual model, meaning it's designed to represent complex hydrological processes using simplified, easy-to-understand concepts. The model is designed to simulate how rainfall gets converted into runoff, a key process in understanding how much water will flow into rivers and streams after a rain event. It's designed with an implementation of the Basic Model Interface, a standard set of functions and procedures designed to facilitate model coupling in integrated environmental modeling studies.
 
 #### Generate HydroFabrics Subsets for the 8 watersheds in New York City (NYC) area
@@ -90,9 +92,13 @@ ngen ./data/catchment_data.geojson "all" ./data/nexus_data.geojson "all" ./data/
 
 ### Hydrodynamic Modeling using GeoClaw Model
 
+---
+
 The [GeoClaw model](https://www.clawpack.org/geoclaw.html) specializes in modeling geophysical flows like storm surges and tsunamis. It’s particularly effective at capturing the dynamics of storm surges, which is critical for understanding compound flooding in coastal areas. GeoClaw is one of the models available in [Geopack](https://github.com/clawpack/clawpack). GeoClaw is a coastal model that uses variable resolution to optimise model run times.
 
 ### Machine Learning Approaches
+
+---
 
 Various machine learning models are employed to analyze the data obtained from the coupled modeling and to understand the complex relationships between the flood drivers and the resulting flooding events. These methods include:
 
@@ -106,7 +112,6 @@ Various machine learning models are employed to analyze the data obtained from t
 
 - **Principal Component Analysis (PCA)**: PCA reduces the dimensionality of the dataset by transforming it into a set of orthogonal components that capture the most variance. It helps in visualizing the dataset and understanding the key drivers.
 
-
 ## Contributing :handshake:
 
 Contributions are welcome and highly appreciated. You can contribute by:
@@ -115,11 +120,6 @@ Contributions are welcome and highly appreciated. You can contribute by:
 - Suggesting Enhancements
 - Sending Pull Requests
 
-
 ## License :page_with_curl:
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-```
-
-```
