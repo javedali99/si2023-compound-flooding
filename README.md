@@ -125,19 +125,21 @@ Steps:
 3. Model Execution: Run the GeoClaw model.
 4. Output Analysis: Analyze storm surge levels and other hydrodynamic outputs.
 
-## Machine Learning Approaches 🤖
+### Machine Learning Approaches 🤖
 
-Various machine learning models are employed to analyze the data obtained from the coupled modeling and to understand the complex relationships between the flood drivers and the resulting flooding events. These methods include:
+Various machine learning models are employed to analyze the data obtained from the coupled modeling to understand and quantify the contributions of various flood drivers to compound flooding under various storm and flooding scenarios in NYC. These algorithms are selected for their ability to handle high-dimensionality, capture non-linear relationships, and model temporal sequences.
 
-- **Random Forest (RF)**: A versatile and powerful algorithm, RF is used to capture the nonlinear relationships between the flood drivers and the flooding. It also offers feature importance scores, helping to identify the most influential drivers.
+- **Random Forest (RF)**: A versatile and powerful algorithm, RF is employed to handle the nonlinear relationships between the flood drivers and the resulting flooding. By offering feature importance scores, RF helps to identify the most influential drivers, quantifying their individual contributions.
 
-- **Support Vector Machine (SVM)**: SVM works by finding the hyperplane that best divides the dataset into classes. In this study, it’s used to classify different flooding scenarios based on the margins between them.
+- **Support Vector Regression (SVR)**: SVR is an implementation of Support Vector Machine (SVM) for regression problems. It is designed to find the best fit line in a high or infinite dimensional space, which is defined by a set of predictors. In this study, we use SVR to predict the flood levels in different scenarios based on the corresponding drivers. This helps us to understand the effects of the flood drivers on the severity of compound flooding.
 
-- **Multi-Layer Perceptron (MLP)**: MLP is a type of artificial neural network that consists of multiple layers of neurons. It’s effective in capturing complex patterns in the dataset and modeling non-linear relationships.
+- **Multi-Layer Perceptron (MLP)**: MLP, a type of artificial neural network, is effective in capturing complex patterns in the dataset and modeling non-linear relationships. By employing MLP, we can model the intricate interactions between various flood drivers and their collective impact on compound flooding.
 
-- **Long Short-Term Memory (LSTM)**: LSTM networks are a subtype of recurrent neural networks capable of learning patterns in time-series data, making them suitable for analyzing the temporal aspects of flood events.
+- **Long Short-Term Memory (LSTM)**: LSTM networks are a subtype of recurrent neural networks designed to learn patterns in time-series data. This makes them particularly suited for our study, where we are interested in understanding the temporal aspects of flood events, including the progression and interaction of various flood drivers over time.
 
-- **Principal Component Analysis (PCA)**: PCA reduces the dimensionality of the dataset by transforming it into a set of orthogonal components that capture the most variance. It helps in visualizing the dataset and understanding the key drivers.
+- **Principal Component Analysis (PCA)**: PCA reduces the dimensionality of the dataset by transforming it into a set of orthogonal components that capture the most variance. By using PCA, we can simplify the complex multidimensional relationships between flood drivers, making it easier to visualize and understand the key drivers.
+
+Each of these machine learning methods contributes to a more comprehensive understanding of the dynamics of compound flooding in NYC, thereby helping to achieve our study's main objective.
 
 ## Contributing :handshake:
 
