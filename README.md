@@ -54,6 +54,8 @@ To run the _ngen_ engine, the following command line positional arguments are su
 - _partition_config_path_ -- path to the partition json config file, when using the driver with [distributed processing](https://github.com/NOAA-OWP/ngen/blob/master/doc/DISTRIBUTED_PROCESSING.md).
 - `--subdivided-hydrofabric` -- an explicit, optional flag, when using the driver with [distributed processing](https://github.com/NOAA-OWP/ngen/blob/master/doc/DISTRIBUTED_PROCESSING.md), to indicate to the driver processes that they should operate on process-specific subdivided hydrofabric files.
 
+**Command to run the CFE model in NGEN framework:**
+
 ```bash
 ngen <catchment_data_path> <catchment subset ids> <nexus_data_path> <nexus subset ids> <realization_config_path>
 ```
