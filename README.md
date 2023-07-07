@@ -51,8 +51,8 @@ To run the _ngen_ engine, the following command line positional arguments are su
 - _nexus_data_path_ -- path to nexus data geojson input file
 - _nexus subset ids_ -- list of comma separated ids (NO SPACES!!!) to subset the nexus data, i.e. 'nex-0,nex-1', an empty string or "all" will use all nexus points
 - _realization_config_path_ -- path to json configuration file for realization/formulations associated with the hydrofabric inputs
-- _partition_config_path_ -- path to the partition json config file, when using the driver with [distributed processing](doc/DISTRIBUTED_PROCESSING.md).
-- `--subdivided-hydrofabric` -- an explicit, optional flag, when using the driver with [distributed processing](doc/DISTRIBUTED_PROCESSING.md), to indicate to the driver processes that they should operate on process-specific subdivided hydrofabric files.
+- _partition_config_path_ -- path to the partition json config file, when using the driver with [distributed processing](https://github.com/NOAA-OWP/ngen/blob/master/doc/DISTRIBUTED_PROCESSING.md).
+- `--subdivided-hydrofabric` -- an explicit, optional flag, when using the driver with [distributed processing](https://github.com/NOAA-OWP/ngen/blob/master/doc/DISTRIBUTED_PROCESSING.md), to indicate to the driver processes that they should operate on process-specific subdivided hydrofabric files.
 
 ```bash
 ngen <catchment_data_path> <catchment subset ids> <nexus_data_path> <nexus subset ids> <realization_config_path>
