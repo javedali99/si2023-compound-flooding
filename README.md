@@ -97,6 +97,10 @@ To run the _ngen_ engine, the following command line positional arguments are su
 **Command to run the CFE model in NGEN framework:**
 
 ```bash
+ngen config/catchments.geojson "" config/nexus.geojson "" config/realization.json ""
+```
+
+```bash
 ngen <catchment_data_path> <catchment subset ids> <nexus_data_path> <nexus subset ids> <realization_config_path>
 ```
 
