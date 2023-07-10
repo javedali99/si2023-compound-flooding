@@ -22,11 +22,11 @@ The primary objective of this study is to understand and quantify the contributi
 
 The methodology adopted in this research involves the coupling of hydrologic and hydrodynamic models, followed by the application of various machine learning techniques to analyze and understand the key drivers contributing to compound flooding.
 
-### Data Sources 📊
+### Data 📊
 
 ---
 
-This study uses a variety of datasets to perform the analysis. The datasets used in this study are listed below:
+This study uses a variety of data to perform the analysis. The data used in this study are listed below:
 
 #### Hydrologic and Hydrodynamic Data 🌊
 
