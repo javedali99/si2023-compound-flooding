@@ -136,11 +136,13 @@ Steps:
 1. Configuration: Set up model parameters such as bathymetry, topography, and friction.
 2. Storm Data: Input storm track data and meteorological forcing.
 3. Model Execution: Run the GeoClaw model.
+
    To generate model simulation for storm surge and water depth.
    
    ```bash
    make .output
    ```
+
    To generate plots that make a comparison between actual and model data.
 
    ```bash
