@@ -131,7 +131,7 @@ The [GeoClaw model](https://www.clawpack.org/geoclaw.html) specializes in modeli
 
 Steps:
 
-1. Configuration: Set up model parameters.
+1. Configuration: Set up model parameters in the setrun script.
 
     Setting up intial and final time -- 2 days before and 3 days after
    ```bash
@@ -142,6 +142,11 @@ Steps:
     Setting up time steps -- every 0.016 days
    ```bash
     clawdata.dt_initial = 0.016
+   ```
+   
+    Setting up the landfall -- (yyyy, mm, dd, hh, mm)
+   ```bash
+   sandy.time_offset = datetime.datetime(2017, 9, 20, 10, 15)
    ```
 
 2. Storm and topo-bathy Data: Input storm track data and meteorological forcing.
