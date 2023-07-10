@@ -28,7 +28,20 @@ The methodology adopted in this research involves the coupling of hydrologic and
 
 This study uses a variety of datasets to perform the analysis. The datasets used in this study are listed below:
 
-#### Storms Data ⛈️
+#### Hydrologic and Hydrodynamic Data 🌊
+
+- Hydrologic and hydrodynamic graphs based on the National Hydrologic Geospatial (Hydrofabric) data which includes catchments, nexus, and flowlines.
+- Model domain parameters represented as configuration files.
+  - The configuration files encompass model default parameters, formulations, input and output paths, simulation time step, initial conditions, and other relevant settings.
+- Meteorological forcing data
+- Storm track characteristics
+- Topobathy
+- Boundary Conditions
+- Precipitation
+- River discharge
+- Storm surge
+
+#### Storms ⛈️
 
 The analysis of storm drivers requires comprehensive historical data of storm events that have impacted NYC. This data includes information about storms, such as names, dates of landfall, dates of impact on NYC, and storm attributes. This information is critical for understanding the role of storm surges and extreme precipitation events in compound flooding.
 
