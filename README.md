@@ -24,8 +24,6 @@ The methodology adopted in this research involves the coupling of hydrologic and
 
 ## Data 📊
 
----
-
 This study uses a variety of data to perform the analysis. The data used in this study are listed below:
 
 ### Hydrologic and Hydrodynamic Data 🌊
