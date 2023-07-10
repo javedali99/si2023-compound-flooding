@@ -6,7 +6,7 @@
 
 <br>
 
-## Introduction :book:
+# Introduction :book:
 
 This repository, [si2023-compound-flooding](https://github.com/javedali99/si2023-compound-flooding), is dedicated to an in-depth analysis of the contributions of various flood drivers to compound flooding in New York City (NYC). Compound flooding is a complex phenomenon involving the interplay of various factors such as storm surges, heavy rainfall, and river discharge. These factors interact in complex ways, making it difficult to isolate their individual contributions to overall flooding. Understanding and quantifying the contributions of these factors is essential for effective flood risk management, infrastructure planning, and climate change adaptation strategies.
 
@@ -14,21 +14,21 @@ This repository, [si2023-compound-flooding](https://github.com/javedali99/si2023
 
 New York City is one of the most flood-prone areas in the United States, with a coastline that stretches for over 500 miles. As a hub of economic activity and population density, it is imperative to protect the city against the adverse impacts of flooding. The city has experienced several major flooding events in the past, including Hurricane Sandy in 2012, which caused over $19 billion in damages and claimed 43 lives. The city is also vulnerable to future flooding events, with sea levels projected to rise by 11 to 30 inches by the 2050s and 18 to 60 inches by the 2080s. The city is also expected to experience more frequent and intense precipitation events in the future, which will further exacerbate the risk of flooding. In this context, understanding the drivers of compound flooding and their interactions becomes even more important. This project aims to address this need by analyzing the contributions of various flood drivers to compound flooding in NYC.
 
-## Objectives :dart:
+# Objectives :dart:
 
 The primary objective of this study is to understand and quantify the contributions of various flood drivers to compound flooding in different parts of NYC under various storm and flooding scenarios. The project uses a combination of coupled modeling and machine learning approaches to quantify the contributions of various flood drivers to compound flooding in NYC. This knowledge will help in prioritizing simulation scenarios, optimizing the allocation of modeling resources, and devising more effective flood risk mitigation strategies.
 
-## Data and Methodology :bar_chart: :hammer_and_wrench:
+# Data and Methodology :bar_chart: :hammer_and_wrench:
 
 The methodology adopted in this research involves the coupling of hydrologic and hydrodynamic models, followed by the application of various machine learning techniques to analyze and understand the key drivers contributing to compound flooding.
 
-### Data 📊
+## Data 📊
 
 ---
 
 This study uses a variety of data to perform the analysis. The data used in this study are listed below:
 
-#### Hydrologic and Hydrodynamic Data 🌊
+### Hydrologic and Hydrodynamic Data 🌊
 
 - Hydrologic and hydrodynamic graphs based on the National Hydrologic Geospatial (Hydrofabric) data which includes catchments, nexus, and flowlines.
 - Model domain parameters represented as configuration files.
@@ -41,7 +41,7 @@ This study uses a variety of data to perform the analysis. The data used in this
 - River discharge
 - Storm surge
 
-#### Storms ⛈️
+### Storms ⛈️
 
 The analysis of storm drivers requires comprehensive historical data of storm events that have impacted NYC. This data includes information about storms, such as names, dates of landfall, dates of impact on NYC, and storm attributes. This information is critical for understanding the role of storm surges and extreme precipitation events in compound flooding.
 
@@ -166,7 +166,7 @@ Various machine learning models are employed to analyze the data obtained from t
 
 Each of these machine learning methods contributes to a more comprehensive understanding of the dynamics of compound flooding in NYC, thereby helping to achieve our study's main objective.
 
-## Contributing :handshake:
+# Contributing :handshake:
 
 Contributions are welcome and highly appreciated. You can contribute by:
 
@@ -174,6 +174,6 @@ Contributions are welcome and highly appreciated. You can contribute by:
 - Suggesting Enhancements
 - Sending Pull Requests
 
-## License :page_with_curl:
+# License :page_with_curl:
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
