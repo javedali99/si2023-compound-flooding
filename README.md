@@ -146,7 +146,7 @@ Steps:
    
     Setting up the landfall -- (yyyy, mm, dd, hh, mm)
    ```bash
-   sandy.time_offset = datetime.datetime(2017, 9, 20, 10, 15)
+   maria.time_offset = datetime.datetime(2017, 9, 20, 10, 15)
    ```
 
 2. Storm and topo-bathy Data: Input storm track data and meteorological forcing.
