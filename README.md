@@ -136,7 +136,17 @@ Steps:
 1. Configuration: Set up model parameters such as bathymetry, topography, and friction.
 2. Storm Data: Input storm track data and meteorological forcing.
 3. Model Execution: Run the GeoClaw model.
-4. Output Analysis: Analyze storm surge levels and other hydrodynamic outputs.
+   To generate model simulation for storm surge and water depth.
+   
+   ```bash
+   make .output
+   
+   To generate plots that make a comparison between actual and model data.
+
+   ```bash
+   make .plots
+   
+5. Output Analysis: Analyze storm surge levels at each station and observation points while also incorporating bias correction.
 
 ## Machine Learning Approaches 🤖
 
