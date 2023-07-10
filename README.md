@@ -131,8 +131,20 @@ The [GeoClaw model](https://www.clawpack.org/geoclaw.html) specializes in modeli
 
 Steps:
 
-1. Configuration: Set up model parameters such as bathymetry, topography, and friction.
-2. Storm Data: Input storm track data and meteorological forcing.
+1. Configuration: Set up model parameters.
+
+    Setting up intial and final time -- 2 days before and 3 days after
+   ```bash
+    clawdata.t0 =  days2seconds(-2)
+    clawdata.tfinal = days2seconds(3)
+   ```
+   
+    Setting up time steps -- every 0.016 days
+   ```bash
+    clawdata.dt_initial = 0.016
+   ```
+
+2. Storm and topo-bathy Data: Input storm track data and meteorological forcing.
 
    Data was retrieved from the National Oceanic and Atmospheric Administration archive (https://ftp.nhc.noaa.gov/)
 3. Model Execution: Run the GeoClaw model.
