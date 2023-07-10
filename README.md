@@ -160,7 +160,9 @@ Various machine learning models are employed to analyze the data obtained from t
 
 - **Long Short-Term Memory (LSTM)**: LSTM networks are a subtype of recurrent neural networks designed to learn patterns in time-series data. This makes them particularly suited for our study, where we are interested in understanding the temporal aspects of flood events, including the progression and interaction of various flood drivers over time.
 
+<!---
 - **Principal Component Analysis (PCA)**: PCA reduces the dimensionality of the dataset by transforming it into a set of orthogonal components that capture the most variance. By using PCA, we can simplify the complex multidimensional relationships between flood drivers, making it easier to visualize and understand the key drivers.
+--->
 
 Each of these machine learning methods contributes to a more comprehensive understanding of the dynamics of compound flooding in NYC, thereby helping to achieve our study's main objective.
 
