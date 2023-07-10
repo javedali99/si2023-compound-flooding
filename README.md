@@ -140,12 +140,12 @@ Steps:
    
    ```bash
    make .output
-   
+   ```
    To generate plots that make a comparison between actual and model data.
 
    ```bash
    make .plots
-   
+   ```
 5. Output Analysis: Analyze storm surge levels at each station and observation points while also incorporating bias correction.
 
 ## Machine Learning Approaches 🤖
