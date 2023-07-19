@@ -43,27 +43,18 @@ This study uses a variety of data to perform the analysis. The data used in this
 
 The analysis of storm drivers requires comprehensive historical data of storm events that have impacted NYC. This data includes information about storms, such as names, dates of landfall, dates of impact on NYC, and storm attributes. This information is critical for understanding the role of storm surges and extreme precipitation events in compound flooding.
 
-| Name                    | Date of Landfall | Date of Impact on NYC | CFE Time Bounds  | Year |
-| ----------------------- | ---------------- | --------------------- | ---------------- | ---- |
-| Tropical Storm Barry    | 2-Jun-2007       | 5-Jun-2007            | 31-May to 6-Jun  | 2007 |
-| Hurricane Hanna         | 6-Sep-2008       | 6-Sep-2008            | 4-Sep to 8-Sep   | 2008 |
-| Hurricane Bill          | 22-Aug-2009      | 22-Aug-2009           | 20-Aug to 24-Aug | 2009 |
-| Hurricane Irene         | 29-Aug-2011      | 27-Aug to 28-Aug-2011 | 26-Aug to 30-Aug | 2011 |
-| Hurricane Sandy         | 29-Oct-2012      | 28-Oct to 29-Oct-2012 | 26-Oct to 31-Oct | 2012 |
-| Tropical Storm Andrea   | 6-Jun-2013       | 7-Jun to 8-Jun-2013   | 4-Jun to 10-Jun  | 2013 |
-| Hurricane Arthur        | 4-Jul-2014       | 4-Jul-2014            | 2-Jul to 6-Jul   | 2014 |
-| Tropical Storm Bill     | 13-Jun-2015      | 21-Jun to 22-Jun-2015 | 11-Jun to 24-Jun | 2015 |
-| Tropical Storm Bonnie   | 29-May-2016      | 28-May-2016           | 27-May to 30-May | 2016 |
-| Hurricane Matthew       | 8-Oct-2016       | 9-Oct to 10-Oct-2016  | 6-Oct to 12-Oct  | 2016 |
-| Tropical Storm Cindy    | 22-Jun-2017      | 19-Jun-2017           | 18-Jun to 24-Jun | 2017 |
-| Hurricane Gert          | -                | 18-Aug-2017           | 16-Aug to 20-Aug | 2017 |
-| Tropical Storm Jose     | -                | 19-Sep to 20-Sep-2017 | 17-Sep to 22-Sep | 2017 |
-| Hurricane Maria         | 20-Sep-2017      | 27-Sep-2017           | 18-Sep to 29-Sep | 2017 |
-| Tropical Storm Philippe | 28-Oct-2017      | 28-Oct to 30-Oct-2017 | 26-Oct to 1-Nov  | 2017 |
-| Tropical Storm Gordon   | 5-Sep-2018       | 8-Sep to 9-Sep-2018   | 3-Sep to 11-Sep  | 2018 |
-| Hurricane Michael       | 10-Oct-2018      | 11-Oct to 12-Oct-2018 | 8-Oct to 14-Oct  | 2018 |
-| Hurricane Dorian        | 5-Sep-2019       | 6-Sep to 7-Sep-2019   | 3-Sep to 9-Sep   | 2019 |
-| Tropical Storm Ogla     | 26-Oct-2019      | 27-Oct-2019           | 24-Oct to 29-Oct | 2019 |
+| Storms                 | Date of Landfall | Date of Impact in NYC | Hour of Landfall | ATCF data | CFE Time Bounds |
+|------------------------|------------------|-----------------------|------------------|-----------|-----------------|
+| Tropical Storm Barry   | 2-Jun-2007       | 5-Jun-2007            | 02:00           | AL022007  | 31-May to 6-Jun |
+| Hurricane Hannah       | 6-Sep-2008       | 6-Sep-2008            | 07:20           | AL082008  | 4-Sep to 8-Sep  |
+| Hurricane Irene        | 28-Aug-2011      | 28-Aug-2011           | 13:00           | AL092011  | 26-Aug to 30-Aug|
+| Hurricane Sandy        | 29-Oct-2012      | 29-Oct-2012           | 23:30           | AL182012  | 26-Oct to 31-Oct|
+| Hurricane Arthur       | 4-Jul-2014       | 4-Jul-2014            | 08:00           | AL012014  | 2-Jul to 6-Jul  |
+| Tropical Storm Jose    | 19-Sep-2017      | 20-Sep-2017           | 00:00           | AL122017  | 17-Sep to 22-Sep|
+| Tropical Storm Philippe| 28-Oct-2017      | 30-Oct-2017           | 22:00           | AL182017  | 26-Oct to 1-Nov |
+| Hurricane Dorian       | 6-Sep-2019       | 7-Sep-2019            | 12:30           | AL052019  | 3-Sep to 9-Sep  |
+| Hurricane Ogla         | 27-Oct-2019      | 27-Oct-2019           | 03:00           | AL172019  | 24-Oct to 29-Oct|
+
 
 ## Coupled Modeling ⚙️
 
