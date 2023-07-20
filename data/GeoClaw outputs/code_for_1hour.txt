@@ -1,0 +1,2 @@
+df_simulated = df_simulated.set_index('datetime').resample('1h').mean()
+df_simulated.to_csv(file, index = True)
