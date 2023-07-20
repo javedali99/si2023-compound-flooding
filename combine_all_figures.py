@@ -8,15 +8,15 @@ from PIL import Image
 
 # List of image paths
 images = [
-    "figures/Hurricane Arthur_discharge.png",
-    "figures/Hurricane Dorian_discharge.png",
-    "figures/Hurricane Hanna_discharge.png",
-    "figures/Hurricane Irene_discharge.png",
-    "figures/Hurricane Sandy_discharge.png",
-    "figures/Tropical Storm Barry_discharge.png",
-    "figures/Tropical Storm Jose_discharge.png",
-    "figures/Tropical Storm Ogla_discharge.png",
-    "figures/Tropical Storm Philippe_discharge.png",
+    "figures/CFE results/Hurricane Arthur_discharge.png",
+    "figures/CFE results/Hurricane Dorian_discharge.png",
+    "figures/CFE results/Hurricane Hanna_discharge.png",
+    "figures/CFE results/Hurricane Irene_discharge.png",
+    "figures/CFE results/Hurricane Sandy_discharge.png",
+    "figures/CFE results/Tropical Storm Barry_discharge.png",
+    "figures/CFE results/Tropical Storm Jose_discharge.png",
+    "figures/CFE results/Tropical Storm Ogla_discharge.png",
+    "figures/CFE results/Tropical Storm Philippe_discharge.png",
 ]
 
 # Open images and resize if needed
@@ -33,7 +33,7 @@ for i, img in enumerate(imgs):
     final_img.paste(img, ((i % 3) * width, (i // 3) * height))
 
 # Save the final image
-final_img.save("all_storm_events_discharge_final.png", dpi=(300, 300))
+final_img.save("all_storm_events_discharge_final.png", dpi=(400, 400))
 
 # Show the final image
 plt.imshow(final_img)
