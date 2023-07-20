@@ -113,7 +113,7 @@ ngen ./data/catchment_data.geojson "" ./data/nexus_data.geojson "" ./data/refact
 ngen ./data/catchment_data.geojson "all" ./data/nexus_data.geojson "all" ./data/refactored_example_realization_config.json
 ```
 
-#### Results of CFE Model for Hurricane Irene
+### Results of CFE Model for Hurricane Irene
 
 <p align="center">
     <img src="https://github.com/javedali99/si2023-compound-flooding/assets/15319503/fd879b76-8c23-4e09-a483-28a4ad25b218" width="750">
