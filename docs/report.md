@@ -3,8 +3,11 @@
 **Javed Ali<sup>1</sup>, Sadaf Mahmoudi<sup>2</sup>, Farnaz Yarveysi<sup>3</sup>, Samuel Daramola<sup>4</sup>**
 
 <sup>1</sup>University of Central Florida; _javed.ali@ucf.edu_
+
 <sup>2</sup>University of Alabama, Tuscaloosa; _smahmoudikouhi@crimson.ua.edu_
+
 <sup>3</sup>University of Alabama, Tuscaloosa; _fyarveysi@crimson.ua.edu_
+
 <sup>4</sup>Virginia Tech, Blacksburg; _samueldaramola@vt.edu_
 
 **Academic Advisors:** Thomas Wahl, _University of Central Florida<sup>1</sup>_; Hamed Moftakhari, _University of Alabama<sup>2</sup>_; Hamid Moradkhani, _University of Alabama<sup>3</sup>_; David Muñoz, _Virginia Tech<sup>4</sup>_
@@ -460,10 +463,15 @@ In this study, the model's performance was validated in the context of two hurri
 
 ### 5.3 Machine Learning
 
+<br>
+
 ## 6. Conclusion
+
+<br>
 
 **Supplementary Material:** The supplementary information can be found here: [https://docs.google.com/document/d/1OemFHBR5sbqGaAsLKTmkgxRfF-ajq4OV7VDUpifgD0c/edit](https://docs.google.com/document/d/1OemFHBR5sbqGaAsLKTmkgxRfF-ajq4OV7VDUpifgD0c/edit). The computational code utilized for hydrologic and hydrodynamic modeling, alongside the machine learning algorithms implemented in this study, are accessible at our open-access GitHub repository [https://github.com/javedali99/si2023-compound-flooding](https://github.com/javedali99/si2023-compound-flooding)
 
+<br>
 ## References
 
 1. Yarveisi, F., Alipour,A., Moftakhari, H., Jafarzadegan, K., Moradkhani, H.(2023). Block-Level Vulnerability Assessment Reveals Disproportionate Impacts of Natural Hazards across the Conterminous United States. Nature Communications. DOI: 10.1038/s41467-023-39853-z.
