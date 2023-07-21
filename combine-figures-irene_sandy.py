@@ -14,20 +14,10 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 # List of storm names
-storm_names = [
-    "Tropical Storm Barry",
-    "Hurricane Hannah",
-    "Hurricane Irene",
-    "Hurricane Sandy",
-    "Hurricane Arthur",
-    "Tropical Storm Jose",
-    "Tropical Storm Philippe",
-    "Hurricane Dorian",
-    "Tropical Storm Ogla",
-]
+storm_names = ["Hurricane Irene", "Hurricane Sandy"]
 
 # Directory that includes storm folders
-directory = "figures/GeoClaw results/"
+base_directory = "figures/GeoClaw results/"
 
 # Station Names and IDs
 station_names = ["The Battery", "Kings Point", "Montauk", "Bridgeport", "New Haven", "New London"]
@@ -38,17 +28,16 @@ station_dict = dict(zip(station_ids, station_names))
 
 # Iterate over each storm
 for storm_name in storm_names:
+    # Directory for current storm
+    directory = os.path.join(base_directory, storm_name, "Max gauge")
+
     # Get a list of all PNG files in the storm's directory
-    images = [
-        os.path.join(directory, storm_name, file)
-        for file in os.listdir(os.path.join(directory, storm_name))
-        if file.endswith(".png")
-    ]
+    images = [os.path.join(directory, file) for file in os.listdir(directory) if file.endswith(".png")]
 
     # Create a list of titles for the images
     titles = [
-        (chr(97 + i), station_dict[file.split("_")[1]])
-        for i, file in enumerate([f for f in os.listdir(os.path.join(directory, storm_name)) if f.endswith(".png")])
+        (chr(97 + i), station_dict[file.split("_")[2]])
+        for i, file in enumerate([f for f in os.listdir(directory) if f.endswith(".png")])
     ]
 
     # Open images and get their sizes
@@ -93,8 +82,12 @@ for storm_name in storm_names:
 
     plt.tight_layout()  # adjust layout to prevent clipping of labels
 
-    # Save the figure in the directory with the storm name in the filename
-    plt.savefig(os.path.join(directory, f"{storm_name.replace(' ', '_')}_combined.png"), dpi=400, bbox_inches="tight")
+    # Save the figure in the base directory with the storm name in the filename
+    plt.savefig(
+        os.path.join(base_directory, f"{storm_name.replace(' ', '_')}_combined_biased.png"),
+        dpi=400,
+        bbox_inches="tight",
+    )
 
     # Show the final image
     plt.show()
