@@ -22,6 +22,17 @@ The primary objective of this study is to understand and quantify the contributi
 
 The methodology adopted in this research involves the coupling of hydrologic and hydrodynamic models, followed by the application of various machine learning techniques to analyze and understand the key drivers contributing to compound flooding.
 
+## Study Area 📍
+
+<figure>
+
+<p align="center">
+    <img src="figures/Maps/study area nyc.png" alt="study-area-nyc" width="750">
+    <figcaption>Figure 1: (a) Study area: Manhattan, New York City, and (b) eight catchments used in the study area </figcaption>
+  </a>
+
+</figure>
+
 ## Data 📊
 
 This study uses a variety of data to perform the analysis. The data used in this study are listed below:
