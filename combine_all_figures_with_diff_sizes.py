@@ -1,5 +1,5 @@
 """
-Description: This Python script combines multiple images of different sizes into a single image using the Python Imaging Library (PIL).
+Description: This Python script combines multiple storm-related images into a single composite image for each storm using the Python Imaging Library (PIL). It resizes the images for uniformity, assigns titles based on station IDs, and saves the high-resolution composite images for further analysis.
 
 Author: Javed Ali (javed.ali@ucf.edu)
 
