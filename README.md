@@ -27,7 +27,7 @@ The methodology adopted in this research involves the coupling of hydrologic and
 The figure below shows, (a) Study area: Manhattan, New York City, and (b) eight catchments used in the study area.
 
 <p align="center">
-    <img src="figures/Maps/study area nyc.png" alt="study-area-nyc" width="750">
+    <img src="figures/Maps/study_area_nyc.png" alt="study-area-nyc" width="750">
   </a>
 
 ## Data 📊
