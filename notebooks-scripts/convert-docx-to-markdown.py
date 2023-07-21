@@ -1,5 +1,8 @@
 """
-Description: This script converts a Microsoft Word (.docx) document to Markdown format. The conversion is carried out paragraph by paragraph, where each paragraph's text is extracted and a newline character is appended at the end to denote a paragraph in Markdown. Currently, text styling (like bold or italic) is not supported in the conversion. The final Markdown text is saved into an 'output.md' file.
+Description: This script converts a Microsoft Word (.docx) document to Markdown format. The conversion is carried out
+paragraph by paragraph, where each paragraph's text is extracted and a newline character is appended at the end to
+denote a paragraph in Markdown. Currently, text styling (like bold or italic) is not supported in the conversion. 
+The final Markdown text is saved into an 'output.md' file.
 
 Author: Javed Ali (javed.ali@ucf.edu)
 
