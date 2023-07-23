@@ -30,8 +30,9 @@ df_combined = pd.read_csv(os.path.join(results_dir, "Combined_FeatureImportance_
 def plot_metric(ax, metric, subplot_title):
     sns.boxplot(x="Algorithm", y=metric, data=df_combined, ax=ax)
     ax.set_title(subplot_title, fontweight="bold")
-    ax.set_ylabel(metric)
+    ax.set_ylabel(metric, fontsize=14)
     ax.set_xlabel("")  # remove x-label for individual subplot
+    ax.tick_params(axis="both", labelsize=14)  # increase tick label fontsize
 
 
 # Create a figure with three subplots in a row
