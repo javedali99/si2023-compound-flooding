@@ -19,7 +19,7 @@ df = pd.read_csv("results/Combined_FeatureImportance_BestResult.csv")
 # The layout is determined by the number of unique gauges
 # The figure length has been adjusted to be shorter
 # fig, axs = plt.subplots(nrows=(len(df) // 3) + 1, ncols=3, figsize=(20, len(df) // 3 * 5))
-fig, axs = plt.subplots(nrows=7, ncols=3, figsize=(20, 35))  # Adjust the figure layout
+fig, axs = plt.subplots(nrows=5, ncols=4, figsize=(20, 35))  # Adjust the figure layout
 
 # Flatten the axes array to easily iterate over it
 axs = axs.flatten()
@@ -38,7 +38,7 @@ for i, gauge in enumerate(df["Gauge "].unique()):
     axs[i].pie(
         df_gauge[["Precipitation_importance", "Surge_importance", "Discharge_importance"]].values[0],
         labels=["Precipitation", "Surge", "Discharge"],
-        autopct="%1.1f%%",
+        autopct="%1.1f%%",  # display percentage
         colors=colors,
         textprops={"fontsize": 14},  # increase the text size
     )
@@ -51,10 +51,12 @@ for j in range(i + 1, len(axs)):
     fig.delaxes(axs[j])
 
 # Adjust the layout to prevent overlapping
-plt.tight_layout()
+# plt.tight_layout()
+plt.subplots_adjust(hspace=0.05, wspace=0.4)  # adjust the space between rows and columns
+
 
 # Save the figure with high resolution
-plt.savefig("figures/flood_drivers_pie_charts.png", dpi=300)
+plt.savefig("figures/flood_drivers_pie_charts_5x4.png", dpi=300)
 
 # Display the plot
 plt.show()
