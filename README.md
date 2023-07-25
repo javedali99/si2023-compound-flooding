@@ -63,6 +63,12 @@ The analysis of storm drivers requires comprehensive historical data of storm ev
 | Hurricane Dorian        | 6-Sep-2019       | 7-Sep-2019            | 12:30            | AL052019  | 3-Sep to 9-Sep   |
 | Hurricane Ogla          | 27-Oct-2019      | 27-Oct-2019           | 03:00            | AL172019  | 24-Oct to 29-Oct |
 
+## Methodology 📈
+
+The methodology adopted in this research involves the coupling of hydrologic and hydrodynamic models, followed by the application of various machine learning techniques to analyze and understand the key drivers contributing to compound flooding.
+
+![methodology-figure](figures/methodlogy/methodology_ppt_white.png)
+
 ## Coupled Modeling ⚙️
 
 To analyze the drivers of compound flooding, we employ a coupled modeling approach that integrates hydrologic and hydrodynamic models. This allows for the simultaneous representation of different processes that contribute to flooding.
