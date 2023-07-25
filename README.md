@@ -91,7 +91,7 @@ Steps:
 
 Retrieve hydrofabric data, followed by the extraction of necessary infromation for creating the parameter configuration file. These files are created for running Conceptual Functional Equivalent (CFE) model and Simple Logical Tautology Handler (SLoTH) in the NGEN framework.
 
-_**Watersheds:** ['wb-694856', 'wb-694725', 'wb-694855', 'wb-694724', 'wb-694854', 'wb-694723', 'wb-698891', 'wb-694722']_
+_**Watersheds:** ['wb-694856', 'wb-694725', 'wb-694855', 'wb-694724', 'wb-694854', 'wb-694723', 'wb-694852', 'wb-694722']_
 
 #### Prepare Basin Averaged Forcing for NextGen CFE Model
 
