@@ -225,8 +225,6 @@ Various machine learning models are employed to analyze the data obtained from t
 
 - **Multi-Layer Perceptron (MLP)**: MLP, a type of artificial neural network, is effective in capturing complex patterns in the dataset and modeling non-linear relationships. By employing MLP, we can model the intricate interactions between various flood drivers and their collective impact on compound flooding.
 
-- **Long Short-Term Memory (LSTM)**: LSTM networks are a subtype of recurrent neural networks designed to learn patterns in time-series data. This makes them particularly suited for our study, where we are interested in understanding the temporal aspects of flood events, including the progression and interaction of various flood drivers over time.
-
 <!---
 - **Principal Component Analysis (PCA)**: PCA reduces the dimensionality of the dataset by transforming it into a set of orthogonal components that capture the most variance. By using PCA, we can simplify the complex multidimensional relationships between flood drivers, making it easier to visualize and understand the key drivers.
 --->
