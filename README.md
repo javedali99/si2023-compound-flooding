@@ -225,10 +225,6 @@ Various machine learning models are employed to analyze the data obtained from t
 
 - **Multi-Layer Perceptron (MLP)**: MLP, a type of artificial neural network, is effective in capturing complex patterns in the dataset and modeling non-linear relationships. By employing MLP, we can model the intricate interactions between various flood drivers and their collective impact on compound flooding.
 
-<!---
-- **Principal Component Analysis (PCA)**: PCA reduces the dimensionality of the dataset by transforming it into a set of orthogonal components that capture the most variance. By using PCA, we can simplify the complex multidimensional relationships between flood drivers, making it easier to visualize and understand the key drivers.
---->
-
 Each of these machine learning methods contributes to a more comprehensive understanding of the dynamics of compound flooding in NYC, thereby helping to achieve our study's main objective.
 
 # Contributing :handshake:
