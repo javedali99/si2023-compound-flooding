@@ -232,7 +232,7 @@ Each of these machine learning methods contributes to a more comprehensive under
 
 ### Official report
 
-- The main manuscript is available [here, Chapter 4](https://www.cuahsi.org/uploads/library/doc/SI2023_Report.pdf)
+- The main manuscript is available [here, Chapter 3](https://www.cuahsi.org/uploads/library/doc/SI2023_Report.pdf)
 - Supplementary information to this report is available [here](https://github.com/javedali99/si2023-compound-flooding/blob/main/docs/Supplementary%20Information-%20Flood%20Sorcerers.pdf).
   
 
