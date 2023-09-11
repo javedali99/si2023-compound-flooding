@@ -6,6 +6,7 @@
 
 <br>
 
+
 # Introduction :book:
 
 This repository, [si2023-compound-flooding](https://github.com/javedali99/si2023-compound-flooding), is dedicated to an in-depth analysis of the contributions of various flood drivers to compound flooding in New York City (NYC). Compound flooding is a complex phenomenon involving the interplay of various factors such as storm surges, heavy rainfall, and river discharge. These factors interact in complex ways, making it difficult to isolate their individual contributions to overall flooding. Understanding and quantifying the contributions of these factors is essential for effective flood risk management, infrastructure planning, and climate change adaptation strategies.
@@ -24,7 +25,7 @@ The methodology adopted in this research involves the coupling of hydrologic and
 
 ## Study Area 📍
 
-The figure below shows, (a) Study area: Manhattan, New York City, and (b) eight catchments used in the study area.
+The figure below shows, (a) the Study area: Manhattan, New York City, and (b) eight catchments used in the study area.
 
 <p align="center">
     <img src="figures/Maps/study_area_nyc.png" alt="study-area-nyc" width="750">
@@ -87,9 +88,9 @@ Steps:
 4. Model Execution: Run the CFE model.
 5. Output Analysis: Analyze runoff and other hydrologic outputs for flood events.
 
-#### Generate HydroFabrics Subsets for the 8 watersheds in New York City (NYC) area
+#### Generate HydroFabrics Subsets for the 8 watersheds in the New York City (NYC) area
 
-Retrieve hydrofabric data, followed by the extraction of necessary infromation for creating the parameter configuration file. These files are created for running Conceptual Functional Equivalent (CFE) model and Simple Logical Tautology Handler (SLoTH) in the NGEN framework.
+Retrieve hydrofabric data, followed by the extraction of necessary information for creating the parameter configuration file. These files are created for running the Conceptual Functional Equivalent (CFE) model and Simple Logical Tautology Handler (SLoTH) in the NGEN framework.
 
 _**Watersheds:** ['wb-694856', 'wb-694725', 'wb-694855', 'wb-694724', 'wb-694854', 'wb-694723', 'wb-694852', 'wb-694722']_
 
@@ -97,7 +98,7 @@ _**Watersheds:** ['wb-694856', 'wb-694725', 'wb-694855', 'wb-694724', 'wb-694854
 
 Prepare basin averaged forcing input from for the NOAA Next Generation (NextGen) Water Resource Modeling Framework from AORC v1.0 kerchunk header files.
 
-#### Run CFE Model in NGEN Framework
+#### Run the CFE Model in NGEN Framework
 
 To run the _ngen_ engine, the following command line positional arguments are supported:
 
@@ -127,7 +128,7 @@ ngen ./data/catchment_data.geojson "" ./data/nexus_data.geojson "" ./data/refact
 ngen ./data/catchment_data.geojson "all" ./data/nexus_data.geojson "all" ./data/refactored_example_realization_config.json
 ```
 
-### Results of CFE Model for Hurricane Irene
+### Results of the CFE Model for Hurricane Irene
 
 <p align="center">
     <img src="https://github.com/javedali99/si2023-compound-flooding/assets/15319503/fd879b76-8c23-4e09-a483-28a4ad25b218" width="750">
@@ -176,7 +177,7 @@ Steps:
 
 1. Configuration: Set up model parameters in the setrun script.
 
-   Setting up intial and final time -- 2 days before and 3 days after
+   Setting up initial and final time -- 2 days before and 3 days after
 
    ```bash
     clawdata.t0 =  days2seconds(-2)
@@ -217,7 +218,7 @@ Steps:
 
 ## Machine Learning Approaches 🤖
 
-Various machine learning models are employed to analyze the data obtained from the coupled modeling to understand and quantify the contributions of various flood drivers to compound flooding under various storm and flooding scenarios in NYC. These algorithms are selected for their ability to handle high-dimensionality, capture non-linear relationships, and model temporal sequences.
+Various machine learning models are employed to analyze the data obtained from the coupled modeling to understand and quantify the contributions of various flood drivers to compound flooding under various storm and flooding scenarios in NYC. These algorithms are selected for their ability to handle high dimensionality, capture non-linear relationships, and model temporal sequences.
 
 - **Random Forest (RF)**: A versatile and powerful algorithm, RF is employed to handle the nonlinear relationships between the flood drivers and the resulting flooding. By offering feature importance scores, RF helps to identify the most influential drivers, quantifying their individual contributions.
 
@@ -226,6 +227,14 @@ Various machine learning models are employed to analyze the data obtained from t
 - **Multi-Layer Perceptron (MLP)**: MLP, a type of artificial neural network, is effective in capturing complex patterns in the dataset and modeling non-linear relationships. By employing MLP, we can model the intricate interactions between various flood drivers and their collective impact on compound flooding.
 
 Each of these machine learning methods contributes to a more comprehensive understanding of the dynamics of compound flooding in NYC, thereby helping to achieve our study's main objective.
+
+# Report 
+
+### Official report
+
+- The main manuscript is available [here, Chapter 4](https://www.cuahsi.org/uploads/library/doc/SI2023_Report.pdf)
+- Supplementary information to this report is available [here](https://github.com/javedali99/si2023-compound-flooding/blob/main/docs/Supplementary%20Information-%20Flood%20Sorcerers.pdf).
+  
 
 # Contributing :handshake:
 
