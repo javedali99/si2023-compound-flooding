@@ -7,6 +7,16 @@
 <br>
 
 
+## Official report
+
+- The main manuscript is available [here, Chapter 3](https://www.cuahsi.org/uploads/library/doc/SI2023_Report.pdf)
+- Supplementary information to this report is available [here](https://github.com/javedali99/si2023-compound-flooding/blob/main/docs/Supplementary%20Information-%20Flood%20Sorcerers.pdf).
+
+**CITATION:**
+>Ali, J., Mahmoudi, S., Yarveysi, F., & Daramola, S. (2020). Analysis of flood drivers contributions to compound flooding using coupled modeling and machine learning. In CUAHSI (Ed.), National Water Center Innovators Program - Summer Institute, CUAHSI Technical Report, HydroShare.
+
+</br>
+
 # Introduction :book:
 
 This repository, [si2023-compound-flooding](https://github.com/javedali99/si2023-compound-flooding), is dedicated to an in-depth analysis of the contributions of various flood drivers to compound flooding in New York City (NYC). Compound flooding is a complex phenomenon involving the interplay of various factors such as storm surges, heavy rainfall, and river discharge. These factors interact in complex ways, making it difficult to isolate their individual contributions to overall flooding. Understanding and quantifying the contributions of these factors is essential for effective flood risk management, infrastructure planning, and climate change adaptation strategies.
@@ -228,12 +238,7 @@ Various machine learning models are employed to analyze the data obtained from t
 
 Each of these machine learning methods contributes to a more comprehensive understanding of the dynamics of compound flooding in NYC, thereby helping to achieve our study's main objective.
 
-# Report 
 
-### Official report
-
-- The main manuscript is available [here, Chapter 3](https://www.cuahsi.org/uploads/library/doc/SI2023_Report.pdf)
-- Supplementary information to this report is available [here](https://github.com/javedali99/si2023-compound-flooding/blob/main/docs/Supplementary%20Information-%20Flood%20Sorcerers.pdf).
   
 
 # Contributing :handshake:
