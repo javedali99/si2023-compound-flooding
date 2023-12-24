@@ -13,7 +13,7 @@
 - Supplementary information to this report is available [here](https://github.com/javedali99/si2023-compound-flooding/blob/main/docs/Supplementary%20Information-%20Flood%20Sorcerers.pdf).
 
 **CITATION:**
->Ali, J., Mahmoudi, S., Yarveysi, F., & Daramola, S. (2020). Analysis of flood drivers contributions to compound flooding using coupled modeling and machine learning. In CUAHSI (Ed.), National Water Center Innovators Program - Summer Institute, CUAHSI Technical Report, HydroShare. 
+>Ali, J., Mahmoudi, S., Yarveysi, F., & Daramola, S. (2023). Analysis of flood drivers contributions to compound flooding using coupled modeling and machine learning. In CUAHSI (Ed.), National Water Center Innovators Program - Summer Institute, CUAHSI Technical Report, HydroShare. 
 
 
 </br>
